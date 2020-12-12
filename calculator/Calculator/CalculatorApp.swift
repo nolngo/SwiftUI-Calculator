@@ -1,14 +1,14 @@
 //
-//  calcApp.swift
-//  calc
+//  CalculatorApp.swift
+//  Calculator
 //
-//  Created by apple on 11/16/20.
+//  Created by Nolan on 12/12/20.
 //
 
 import SwiftUI
 
 @main
-struct calcApp: App {
+struct CalculatorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

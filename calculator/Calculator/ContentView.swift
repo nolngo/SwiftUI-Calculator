@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  calc
+//  Calculator
 //
-//  Created by apple on 11/16/20.
+//  Created by Nolan on 12/12/20.
 //
 
 import SwiftUI
@@ -86,9 +86,9 @@ struct NumberView: View {
             .fontWeight(.bold)
             .foregroundColor(.white)
             .frame(width: 64, height: 64)
-            .background(Color.blue)
+            .background(Color.red)
             .cornerRadius(20)
-            .shadow(color: Color.blue.opacity(0.3), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x:0 , y: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            .shadow(color: Color.red.opacity(0.3), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x:0 , y: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
         
         
     }
